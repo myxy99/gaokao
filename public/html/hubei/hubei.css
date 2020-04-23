@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    background-color: #F7F7F7;
+    margin: 0;
+}
+.head{
+    width: 100%;
+    height:60px;
+    background:rgba(255,255,255,1);
+    box-shadow:0 2px 39px 1px rgba(111,112,112,0.05);
+}
+.head-logo{
+    width: 211px;
+    height: 52px;
+    margin-left: 63px;
+}
+.head-logo img{
+    width: 65px;
+    height: 42px;
+    float: left;
+    margin: 8px 0 0 0 ;
+}
+.head-logo p{
+    font-family:DengXian;
+    font-weight:400;
+    color:rgba(0,0,0,1);
+    float: right;
+    margin: 20px 0 0 0 ;
+}
+.box1_f{
+     height: 70px;
+     width: 1000px;
+     margin:20px auto 0 ;
+ }
+.return{
+    width: 60px;
+    height: 35px;
+    float: left;
+    margin: 15px 0 0 0 ;
+
+}
+.return img{
+    width: 12px;
+    height: 20px;
+    float: left;
+}
+.return p{
+    float: right;
+    font-family:DengXian;
+    font-weight:400;
+    color:rgba(82,82,82,1);
+    margin-top: 2px;
+}
+.search_s{
+    width:150px;
+    height:42px;
+    border:1.5px solid rgba(69,207,153,1);
+    opacity:0.78;
+    border-radius:25px;
+    float: right;
+}
+table{
+    border: 1px solid rgba(218,218,218,1);
+    width: 1000px;
+    height: 450px;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+table tr:first-child th:first-child {
+    border-top-left-radius: 25px;
+}
+
+table tr:first-child th:last-child {
+    border-top-right-radius: 25px;
+}
+table tr:last-child td:first-child {
+    border-bottom-left-radius: 25px;
+}
+
+table tr:last-child td:last-child {
+    border-bottom-right-radius: 25px;
+}
+th{
+    font-family:DengXian;
+    font-weight:400;
+    color:rgba(247,247,247,1);
+    background:rgba(69,207,153,1);
+    height: 42px;
+    border: 1px solid rgba(218,218,218,1);
+}
+td{
+    text-align: center;
+    border: 1px solid rgba(218,218,218,1);
+    font-family:DengXian;
+    font-weight:400;
+    color:rgba(80,80,80,1);
+}
+.box2_s{
+    width: 350px;
+    margin: auto;
+}
+.s_1{
+   width: 280px;
+    float: left;
+}
+.s_1 p{
+    float: right;
+}
+#ssubmit{
+    float: right;
+}
+.end{
+    width:100%;
+    height: 104px;
+    background-image:url("../hubei/img/bg.png") ;
+    position: absolute;
+    bottom: 0;
+}

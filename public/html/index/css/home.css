@@ -1,0 +1,145 @@
+*{
+	margin: 0; 
+	padding: 0;
+}
+body,html{
+	width: 100%;
+	height: 100%;
+}
+a{
+	display: block;
+}
+.foter{
+	margin-top:50px;
+	width:100%;
+height:52px;
+background:rgba(103,121,219,1);
+
+}
+.foter>p{
+	text-align: center;
+	line-height: 52px;
+}
+.dhl>a{
+	font-size:25px;
+font-family:DengXian;
+font-weight:400;
+color:rgba(122,167,228,1);
+	width:273px;
+height:201px;
+text-align: center;
+line-height: 201px;
+background-color: white
+}
+.dhl>a:hover{
+	background:rgba(115,172,242,1);
+		text-decoration: none;
+}
+.lbt,.dhl{
+	margin-top: 50px;
+	float: left;
+}
+.carousel-item>img{
+		width: 1055px;
+	height: 602px;
+}
+.dhl{
+	width:273px ;
+	height: 602px;
+	
+}
+.leader{
+	width: 100%;
+	height: 100px;
+
+	box-shadow:0px 2px 39px 1px rgba(168,168,168,0.2);
+}
+.leader>img,.leader>p{
+	float:left;
+}
+.leader>p{
+	margin:45px 0 0 20px ;
+}
+.leader>img{
+	margin: 15px 0px 15px 50px
+}
+.lbt{
+	
+	width: 1055px;
+	height: 602px;
+	
+}
+.one{
+	width: 1330px;
+	height: 605px;
+	margin: 0px auto;
+
+}
+.two{
+	width:269px;
+height:64px;
+background:rgba(86,106,218,1);
+border-radius:25px;
+margin: 0 auto;
+font-size:33px;
+font-family:DengXian;
+font-weight:400;
+color:rgba(255,255,255,1);
+line-height:64px;
+text-align: center;
+margin-top:100px;
+margin-bottom: 40px;
+}
+.three{
+	width:1584px;
+height:700px;
+/*background:rgba(255,255,255,1);*/
+/*background-color: pink!important;*/
+box-shadow:0px 2px 39px 1px rgba(168,168,168,0.2);
+margin: 0 auto;
+
+}
+.three-one{
+
+/*	order: 1;flex-grow:1;*/
+width: 395px;
+height: 260px;
+	text-align: center;
+		float: left;
+		margin-top:65px;
+}
+.three-one>p{
+	font-size:29px;
+font-family:DengXian;
+font-weight:400;
+color:rgba(94,94,94,1);
+
+	cursor:pointer;
+	text-decoration: none; 
+}
+.three-one>img{
+	width:133px;
+height:133px;
+}
+.xxgw{
+	display: none;
+	width:187px;
+height:132px;
+background:rgba(136,184,243,1);
+margin:  0 auto;
+}
+.xxgw>a{
+	font-size:25px;
+font-family:DengXian;
+font-weight:400;
+color:rgba(255,255,255,1);
+	margin: 10px;
+}
+.bj{
+	width: 100%;
+	height: 800px;
+	background-image: url(../img/31fdfb1d746ba1efe67cd4d89270c73.png);
+	  background-size:100%;
+	background-repeat: no-repeat;
+
+}

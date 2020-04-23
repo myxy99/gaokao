@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #F7F6F9
+}
+
+html {
+    background-color: #F7F6F9
+}
+
+a {
+    display: block;
+}
+
+input {
+    outline: none;
+}
+
+ul {
+    display: block;
+    list-style: none;
+}
+
+.foter {
+    /*	margin-top:50px;*/
+    width: 100%;
+    height: 100px;
+    /*background-color: pink*/
+    background-image: url(../../img/209d1c93404bae0aee8bb760cb33312.png);
+    background-color: #F7F6F9
+
+}
+
+.foter > p {
+    text-align: center;
+    line-height: 52px;
+}
+
+.leader {
+    width: 100%;
+    height: 100px;
+
+    box-shadow: 0px 2px 39px 1px rgba(168, 168, 168, 0.2);
+}
+
+.leader > img, .leader > p {
+    float: left;
+}
+
+.leader > p {
+    margin: 45px 0 0 20px;
+}
+
+.leader > img {
+    margin: 15px 0px 15px 50px
+}
+
+.University-information-inquiry-one {
+    width: 100%;
+    height: 1150px;
+    margin: 20px auto;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    outline: none;
+    background-color: #F7F6F9
+}
+
+.University-information-inquiry-two {
+    margin: 0 auto;
+}
+
+.University-information-inquiry-one-search > input {
+    width: 756px;
+    height: 68px;
+    border: 2px solid rgba(69, 207, 153, 1);
+    border-radius: 25px;
+    padding-left: 30px;
+    font-size: 20px;
+
+}
+
+.University-information-inquiry-three, .University-information-inquiry-two, .University-information-inquiry-one-search {
+    width: 756px;
+    height: 68px;
+    margin: 37px auto;
+}
+
+.University-information-inquiry-two > p {
+    font-size: 23px;
+    font-family: Microsoft YaHei UI;
+    font-weight: 400;
+    color: rgba(120, 118, 118, 1);
+    line-height: 83px;
+
+}
+
+.University-information-inquiry-two > p > span {
+    margin-left: 30px;
+}
+
+.University-information-inquiry-three {
+    width: 1350px;
+    height: 522px;
+    background: rgba(255, 255, 255, 1);
+    border: 2px solid rgba(69, 207, 153, 1);
+    /*background-color: yellow;*/
+    margin: 113px auto;
+    text-align: center;
+}
+
+.imfomation > li, .University-information-inquiry-three > ul > li {
+    width: 20%;
+    height: 88px;
+    float: left;
+    background-color: white;
+    text-align: center;
+    line-height: 75px;
+    font-size: 25px;
+    font-family: Microsoft YaHei UI;
+    font-weight: 400;
+}
+
+.imfomation > li {
+    background: rgba(69, 207, 153, 1);
+
+}
+
+.University-information-inquiry-three > ul > li > img {
+    width: 59px;
+    height: 59px;
+    cursor: pointer
+}
+
+.University-information-inquiry-face {
+    margin: 26px auto;
+    width: 1110px;
+    height: 100px;
+
+}
+
+.University-information-inquiry-face-next, .University-information-inquiry-face-fomer, .University-information-inquiry-face-first, .University-information-inquiry-face-midle, .University-information-inquiry-face-last {
+    width: 40px;
+    height: 20px;
+    display: block;
+    float: left;
+    text-align: center;
+    margin: 10px 0 0 40px;
+    color: black;
+
+}
+
+.University-information-inquiry-face-next, .University-information-inquiry-face-fomer {
+    width: 60px;
+}
+
+.University-information-inquiry-face-center {
+    width: 50%;
+    height: 40px;
+
+    margin: 20px auto;
+}
+
+.University-information-inquiry-face-midle {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+
+    text-align: center;
+}
+
+.University-information-inquiry-face-midle:hover {
+    background: #45CF99;
+    text-decoration: none;
+}
+
+.University-information-inquiry-face-next:hover, .University-information-inquiry-face-fomer:hover, .University-information-inquiry-face-first:hover, .University-information-inquiry-face-midle:hover, .University-information-inquiry-face-last:hover {
+    text-decoration: none;
+}
+
+.college-details {
+    display: none;
+    width: 708px;
+    height: 838px;
+    background: rgba(255, 255, 255, 1);
+    border: 2px solid rgba(109, 207, 246, 1);
+    box-shadow: 0px 2px 39px 1px rgba(111, 112, 112, 0.05);
+    border-radius: 40px;
+    position: absolute;
+    top: 20%;
+    left: 37%;
+}
+
+.college-details-one {
+    width: 505px;
+    height: 50px;
+
+    line-height: 50px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.college-details-one > p {
+    font-size: 33px;
+    font-family: DengXian;
+    font-weight: 400;
+    color: rgba(144, 144, 144, 1);
+    float: left;
+    margin-left: 100px;
+}
+
+.college-details-one > form {
+    margin-left: 37px;
+    float: left;
+}
+
+.college-details-two-xh {
+    margin: 20px 40px 0px 85px;
+}
+
+.college-details-two-xh > img {
+    width: 162px;
+    height: 162px;
+}
+
+.college-details-two-wz {
+    width: 300px;
+    height: 162px;
+
+    margin: 20px 40px 0px 60px;
+}
+
+.college-details-two-wz-one, .college-details-two-wz-three, .college-details-two-wz-two {
+    width: 100%;
+    height: 40px;
+    margin: 10px 0 0 20px;
+
+
+}
+
+.college-details-three, .college-details-two-wz-three > p, .college-details-two-wz-three > a, .college-details-two-wz-two > a, .college-details-two-wz-two > p, .college-details-two-xh, .college-details-two-wz, .college-details-two-wz-one > p, .college-details-two-wz-one > a {
+    float: left;
+
+}
+
+.college-details-three {
+    width: 570px;
+    height: 326px;
+
+    margin: 50px 85px;
+}
+
+.college-details-four {
+    width: 100px;
+    height: 20px;
+    margin: 0 auto;
+}
+
+.college-details-four > input {
+    width: 150px;
+    height: 54px;
+    background: rgba(109, 207, 246, 1);
+    border: 2px solid rgba(109, 207, 246, 1);
+    border-radius: 15px;
+    outline: none;
+}
+
+.xxmc {
+    cursor: pointer
+}
+
+.University-information-inquiry-one-search > img {
+    position: absolute;
+    top: 13px;
+    left: 90%;
+}
+
+.University-information-inquiry-one-search > img:hover {
+    cursor: pointer;
+}
+
+.University-information-inquiry-one-search {
+    position: relative;
+}
+
+#pageBox .layui-laypage a {
+    color: #94999F;
+    font-size: 12px;
+}
+
+#pageBox .layui-laypage em {
+    font-size: 12px;
+}
+
+.layui-laypage .layui-laypage-spr {
+    margin-right: 5px;
+}
+
+#pageBox .layui-laypage a {
+    margin-right: 5px;
+}
+
+#pageBox .layui-laypage-curr {
+    margin-right: 5px;
+}
+
+.layui-laypage-prev, .layui-laypage-next {
+    font-family: "fontello";
+}
+
+#pageBox .layui-laypage .layui-laypage-curr .layui-laypage-em {
+    background-color: #1FB1EA;
+}
+
+#pageBox .layui-laypage a, #pageBox  .layui-laypage span:not(.layui-laypage-skip) {
+    box-sizing: border-box;
+    padding: 4px 9px;
+    height: 26px;
+    width: 26px;
+    line-height: 1.42857143;
+}
+
+#pageBox .layui-laypage .layui-laypage-count {
+    width: auto !important;
+    float: none;
+    color: #94999F;
+    font-size: 12px;
+}
+
+#pageBox .layui-laypage-btn {
+    background-color: #1FB1EA;
+    color: #FFFFFF;
+    width: 50px;
+    height: 26px;
+    padding: 1px 5px;
+    line-height: 1.5;
+}
+
+#pageBox .layui-laypage a, #pageBox .layui-laypage-spr {
+    border: 0px;
+}
+
+#pageBox a.layui-laypage-prev, #pageBox a.layui-laypage-next {
+    border: 1px solid #ddd;
+}
+
+#pageBox > .layui-laypage > a:hover {
+    color: #fff;
+    background-color: #58CAF4;
+    border-color: #58CAF4;
+}
+
+#pageBox a.layui-laypage-prev:hover, #pageBox a.layui-laypage-next:hover {
+    color: #94999F;
+    background-color: #fff;
+    border-color: #ddd;
+}
+
+#pageBox .layui-laypage-curr em:not(.layui-laypage-em) {
+    line-height: 1.328571;
+}
+
+#pageBox .layui-laypage-btn:hover {
+    color: #656A71;
+    border-color: #DEE1E3;
+    background-color: #fff;
+}

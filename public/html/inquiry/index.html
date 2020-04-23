@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.layuicdn.com/layui/css/layui.css">
+    <link rel="stylesheet" type="text/css" href="css/University-information-inquiry.css"/>
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://www.layuicdn.com/layui/layui.js"></script>
+    <title>高考首页</title>
+</head>
+
+<body>
+<div class="leader">
+    <img src="../index/img/容器 (1).png"/>
+    <p>高考志愿决策系统</p>
+</div>
+<div class="University-information-inquiry-one">
+    <div class="University-information-inquiry-one-search">
+
+        <input type="text" name="University-information-inquiry-search" placeholder="高校查询"/>
+        <img src="../index/img/搜索--1 (1) 拷贝 2.png"/>
+    </div>
+    <div class="University-information-inquiry-two">
+        <p> 录取批次：<span>所有 </span> <span>一本批次</span> <span>二本批次</span><span>高职高专批</span></p>
+        <p>学校所在地：<span>四川</span>
+            <span>重庆</span>
+            <span>湖南</span>
+            <span>湖北</span>
+            <span>北京</span>
+            <span>上海</span></p>
+    </div>
+    <div class="University-information-inquiry-three">
+        <ul class="imfomation">
+            <li>学校标志</li>
+            <li>学校名称</li>
+            <li>所在地</li>
+            <li>招生批次</li>
+            <li>历年分数线</li>
+        </ul>
+        <ul>
+            <li><img src="../index//img/4142011524.jpg"/></li>
+            <li class="xxmc" onclick="dianji()">武汉音乐学院</li>
+            <li>湖北</li>
+            <li>一本批次</li>
+            <li>650</li>
+        </ul>
+        <ul>
+            <li><img src="../index/img/4142011524.jpg"/></li>
+            <li class="xxmc" onclick="dianji()">武汉音乐学院</li>
+            <li>湖北</li>
+            <li>一本批次</li>
+            <li>650</li>
+        </ul>
+        <ul>
+            <li><img src="../index/img/4142011524.jpg"/></li>
+            <li class="xxmc" onclick="dianji()">武汉音乐学院</li>
+            <li>湖北</li>
+            <li>一本批次</li>
+            <li>650</li>
+        </ul>
+        <ul>
+            <li><img src="../index/img/4142011524.jpg"/></li>
+            <li class="xxmc" onclick="dianji()">武汉音乐学院</li>
+            <li>湖北</li>
+            <li>一本批次</li>
+            <li>650</li>
+        </ul>
+        <ul>
+            <li><img src="../index/img/4142011524.jpg"/></li>
+            <li class="xxmc" onclick="dianji()">武汉音乐学院</li>
+            <li>湖北</li>
+            <li>一本批次</li>
+            <li>650</li>
+        </ul>
+
+    </div>
+    <div class="University-information-inquiry-face">
+        <div class="University-information-inquiry-face-center" id="pageBox">
+        </div>
+    </div>
+
+</div>
+<div class="college-details">
+    <div class="college-details-one">
+        <p>长江文理学院</p>
+        <form action="">
+            <select name="Provinces">
+                <option value="陕西">陕西</option>
+                <option value="湖北">湖北</option>
+            </select>
+
+        </form>
+        <form action="">
+            <select name="Section">
+                <option value="理科">理科</option>
+                <option value="文科">文科</option>
+                <option value="综合改革">综合</option>
+            </select>
+        </form>
+
+
+    </div>
+
+    <div class="college-details-two">
+        <div class="college-details-two-xh">
+            <img src="../img/4142011524.jpg"/>
+        </div>
+        <div class="college-details-two-wz">
+            <div class="college-details-two-wz-one">
+                <p>学校官网：</p>
+                <a href="www.whu.edu.cn">www.whu.edu.cn/</a>
+            </div>
+            <div class="college-details-two-wz-two">
+                <p>学校官网：</p>
+                <a href="#">www.whu.edu.cn/</a>
+            </div>
+            <div class="college-details-two-wz-three">
+                <p>学校官网：</p>
+                <a href="#">www.whu.edu.cn/</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="college-details-three">
+        <p>123</p>
+    </div>
+    <div class="college-details-four">
+        <input type="button" name="sure" id="sure" value="确定" onclick="gb()"/>
+    </div>
+</div>
+
+
+<div class="foter">
+
+</div>
+<script type="text/javascript">
+    layui.use('laypage', function () {
+        var laypage = layui.laypage;
+        laypage.render({
+            elem: 'pageBox'
+            , count: 70
+            , jump: function (obj, first) {
+                console.log(obj.curr); //得到当前页，以便向服务端请求对应页的数据。
+                console.log(obj.limit); //得到每页显示的条数
+
+                //首次不执行
+                if (!first) {
+                }
+            }
+        });
+
+    });
+    //		      用过style实现下拉
+    var od = document.getElementsByClassName("college-details")[0];
+    var sure = document.getElementById("sure")
+    var dianji = function () {
+        od.style.display = "block";
+    }
+    var gb = function () {
+        od.style.display = "none";
+    }
+</script>
+</body>
+
+</html>
