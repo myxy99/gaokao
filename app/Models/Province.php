@@ -45,4 +45,20 @@ class Province extends Model
             return false;
         }
     }
+
+    public static function getId($area)
+    {
+        try {
+            $info = self::select('id')
+                ->where('name',$area)
+                ->get();
+            $res = json_decode($info,true);
+            $area_id = $res[0]['id'];
+
+            return $area_id;
+        } catch (Exception $e) {
+            \App\Utils\Logs::logError('省份ID获取失败！', [$e->getMessage()]);
+            return null;
+        }
+    }
 }

@@ -31,3 +31,14 @@ Route::prefix('volunteerhtml')->namespace('VolunteerHtml')->group(function () {
     Route::get('getvolunteerhtml', 'VolunteerController@GetVolunteerHtml');//获取志愿填报页面
 
 });
+
+//欧阳生林
+Route::prefix('schoolRmd')->namespace('SchoolRmd')->group(function () {
+    Route::get('getRmd', 'SchoolRmdController@getRmd');//获取动图学校信息
+});
+
+Route::prefix('user')->namespace('User')->group(
+    function () {
+        Route::get('getInfo', 'SchoolInfoController@getInfo');//获取学校详情
+        Route::get('suggest', 'SuggestController@suggest');//查询学校推荐
+    });
