@@ -31,8 +31,8 @@ class SuggestRequest extends FormRequest
         ];
     }
 
-    protected function failValidation(Validator $validator)
+    protected function failedValidation(Validator $validator)
     {
-        throw (new HttpResponseException(response()->fail(422, '参数错误！', $validator->errors()->all(), 422)));
+        throw (new HttpResponseException(response()->fail(422, '参数错误!', $validator->errors()->all(), 422)));
     }
 }

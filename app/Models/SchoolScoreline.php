@@ -41,7 +41,7 @@ class SchoolScoreline extends Model
     public static function getScore($code, $area)
     {
         try {
-            $res1 = self::select('year', 'min',)
+            $res1 = self::select('year', 'min')
                 ->where('school_code', $code)
                 ->where('province_id', $area)
                 ->where('project_id', 1)
@@ -49,7 +49,7 @@ class SchoolScoreline extends Model
                 ->orderBy('year')
                 ->get();
 
-            $res2 = self::select('year', 'min',)
+            $res2 = self::select('year', 'min')
                 ->where('school_code', $code)
                 ->where('province_id', $area)
                 ->where('project_id', 2)
